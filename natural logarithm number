@@ -1,0 +1,7 @@
+import math
+num =float(input("enter a number:"))
+if num <= 0:
+    print("please enter a position number.")
+else:
+    result =math.log(num)
+    print(f"The natural logarithm or {num} is {result}")
